@@ -36,4 +36,5 @@ public class EmployeePayrollController {
     public ResponseEntity<String> deleteEmployeePayrollData(@PathVariable("empId") int empId){
         return new ResponseEntity<String>("Delete Call Success for id: "+empId, HttpStatus. OK);
     }
+    
 }
