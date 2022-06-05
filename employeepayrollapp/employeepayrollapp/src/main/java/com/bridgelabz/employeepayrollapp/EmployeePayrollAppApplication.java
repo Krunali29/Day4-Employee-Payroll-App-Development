@@ -16,7 +16,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 public class EmployeePayrollAppApplication {
 
 	public static void main(String[] args) {
-		
+		/*UC-2 Use Lombok Library for Logging*/
 		System.out.println("Welcome To Employee Payroll Service Application");
 		ApplicationContext context = SpringApplication.run(EmployeePayrollAppApplication.class,args);
 		log.info("Employee Payroll App Started in {} Enivronment",context.getEnvironment().getProperty("environment"));
